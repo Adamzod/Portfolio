@@ -17,9 +17,13 @@ import { SectionHeading } from "@/components/animations/section-heading";
 export default function Home() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
+
   // Frontend & Design skills
 
-  const skillClass = " grid grid-cols-2 grid-cols-4 gap-x-[2.25rem] max-[1400px]:gap-x-[1.5rem] gap-y-[0.9375rem] p-[10px] max-[1130px]:gap-x-[0.625rem] max-[1130px]:gap-y-[0.3125rem]  max-[1000px]:gap-x-[5.5rem] max-[1000px]:gap-y-[1.7rem]  max-[800px]:gap-x-[2rem] max-[800px]:gap-y-[1.75rem] max-[500px]:gap-x-[1rem] max-[500px]:gap-y-[1rem] max-[400px]:gap-x-[0rem] max-[400px]:gap-y-[0.5rem] "
+  const skillClass = " grid grid-cols-4 gap-x-9 gap-y-4 p-[10px] " +
+    "max-lg:gap-x-6 max-lg:gap-y-3 " +
+    "max-md:gap-x-4 max-md:gap-y-2 " +
+    "max-sm:gap-x-2 max-sm:gap-y-1"
   
   const frontendSkills = [
     {
@@ -188,19 +192,8 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col justify-center items-center gap-5 w-full lg:max-w-[985px] h-auto lg:h-[550px] relative z-10 mx-auto"
-            style={{
-              padding: "50px 60px",
-              flex: "none",
-              order: 0,
-              flexGrow: 0,
-              borderRadius: "2rem", 
-              background: "rgba(30, 34, 44, 0.55)",
-              backdropFilter: "blur(3px) saturate(160%)",
-              WebkitBackdropFilter: "blur(18px) saturate(160%)",
-              outlineOffset: "-6px",
-              transition: "box-shadow 0.3s, background 0.3s, border 0.3s",
-            }}
+            className="flex flex-col justify-center items-center gap-5 w-full lg:max-w-[985px] h-auto lg:h-[550px]  mx-auto px-[50px] py-[60px] rounded-[30px] glass-card"
+           
           >
             {/* Content container with text and image */}
             <div className="flex flex-col lg:flex-row  justify-center items-center max-md:gap-20 gap-5 w-full lg:w-[865px] lg:h-[350px] p-0">
@@ -222,7 +215,7 @@ export default function Home() {
                     }}
                   >
                     👋🏼
-                  </span>
+                  </span>   
                   <style>
                     {`
                       @keyframes wave-hand {
@@ -294,7 +287,7 @@ export default function Home() {
                       Projects
                     </span>
                     <span
-                      className="absolute left-0 bottom-0 w-full h-[2px] bg-[#C686D7] transition-all duration-300 ease-out scale-x-0 group-hover:scale-x-100"
+                      className="absolute left-0 bottom-0 w-full h-[2px]  bg-[#C686D7] transition-all duration-300 ease-out scale-x-0 group-hover:scale-x-100"
                       style={{ transformOrigin: "left" }}
                     />
                   </motion.span>. Have a
@@ -311,7 +304,7 @@ export default function Home() {
                 style={{
                   boxShadow: "0 8px 32px rgba(0, 0, 0, 0.25)",
                   border: "2.5px solid rgba(255,255,255,0.18)",
-                  background: "rgba(255,255,255,0.08)",
+                  background: "rgba(255,255,255)",
                   backdropFilter: "blur(10px) saturate(120%)",
                   WebkitBackdropFilter: "blur(10px) saturate(120%)",
                   transition: "box-shadow 0.3s, background 0.3s, border 0.3s",
@@ -394,7 +387,7 @@ export default function Home() {
 
       {/* Skills Section */}
       <section className="section-spacing py-20 px-4 mb-[50px]">
-        <div className=" w-full lg:max-w-[1180px]  w-[100%] mx-auto">
+        <div className=" w-full lg:max-w-[1180px]   w-[100%] mx-auto">
           <SectionHeading title="Skills" />
 
           <StaggerChildren
@@ -403,7 +396,7 @@ export default function Home() {
             {/* Frontend & Design Card */}
             <StaggerItem>
               <motion.div
-                className="rounded-[30px] p-5 w-full flex flex-col justify-center items-center"
+                className="rounded-[30px] p-5 w-full  flex flex-col justify-center items-center"
                 whileHover={{
                   y: -10,
                   background:
