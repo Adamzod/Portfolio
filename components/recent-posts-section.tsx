@@ -102,7 +102,7 @@ export function RecentPostsSection() {
           {recentPosts.map((post, index) => (
             <FadeIn key={index} delay={index * 0.2}>
               <motion.div
-                className="w-full rounded-[30px] p-8 flex flex-col md:flex-row justify-between glass-card"
+                className="w-full rounded-[30px] p-8 flex flex-col md:flex-row justify-between glass-container"
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.3 }}
                 onClick={() => openModal(post)}

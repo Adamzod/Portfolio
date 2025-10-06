@@ -23,8 +23,16 @@ const getSkillColor = (skill: string): string => {
     "Express.js": "rgba(240, 219, 79, 0.6)",
     GraphQL: "rgba(56, 126, 184, 0.6)",
     "React.js": "rgba(60, 203, 244, 0.6)",
+    "React 18": "rgba(60, 203, 244, 0.6)",
+    "Next.js": "rgba(97, 97, 97, 0.6)",
     PostgreSQL: "rgba(54, 105, 148, 0.6)",
     Docker: "rgba(50, 108, 229, 0.6)",
+    Supabase: "rgba(62, 207, 142, 0.6)",
+    TailwindCSS: "rgba(6, 182, 212, 0.6)",
+    "shadcn/ui": "rgba(167, 139, 250, 0.6)",
+    Firebase: "rgba(255, 179, 0, 0.6)",
+    Firestore: "rgba(255, 179, 0, 0.6)",
+    "TanStack Query": "rgba(255, 65, 84, 0.6)",
     // Add fallbacks for other skills
     Python: "rgba(53, 114, 165, 0.6)",
     TypeScript: "rgba(49, 120, 198, 0.6)",
@@ -50,7 +58,7 @@ export function ProjectCard({ title, description, image, technologies, websiteUr
     <StaggerItem>
       <HoverScale scale={1.03}>
         <div
-          className="w-full md:w-[350px] rounded-[30px] overflow-hidden h-[520px] md:h-[540px] flex flex-col glass-card"
+          className="w-full md:w-[350px] rounded-[30px] overflow-hidden h-[520px] md:h-[540px] flex flex-col glass-container"
           onClick={onClick}
         >
           <div className="p-5 flex  flex-col h-full">

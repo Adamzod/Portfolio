@@ -136,7 +136,7 @@ export function TimelineItem({
         whileTap={{ scale: 0.98 }}
       >
         <motion.div
-          className="p-[20px] rounded-[30px] glass-hero"
+          className="p-[20px] rounded-[30px] glass-container"
           style={{
             flex: "none",
             order: 0,

@@ -20,7 +20,7 @@ export default function Home() {
 
   // Frontend & Design skills
 
-  const skillClass = " grid grid-cols-4 gap-x-9 gap-y-4 p-[10px] " +
+  const skillClass = " grid grid-cols-4 gap-x-7 gap-y-4 p-[10px] " +
     "max-lg:gap-x-6 max-lg:gap-y-3 " +
     "max-md:gap-x-4 max-md:gap-y-2 " +
     "max-sm:gap-x-2 max-sm:gap-y-1"
@@ -192,7 +192,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col justify-center items-center gap-5 w-full lg:max-w-[985px] h-auto lg:h-[550px]  mx-auto px-[50px] py-[60px] rounded-[30px] glass-card"
+            className="flex flex-col justify-center items-center gap-5 w-full lg:max-w-[985px] h-auto lg:h-[550px]  mx-auto px-[50px] py-[60px] rounded-[30px] glass-container"
            
           >
             {/* Content container with text and image */}
@@ -311,7 +311,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  src="/IMG_9231.jpg"
+                  src="/gen4.png"
                   alt="Yousef Mehdizadeh"
                   width={350}
                   height={350}
@@ -391,7 +391,7 @@ export default function Home() {
           <SectionHeading title="Skills" />
 
           <StaggerChildren
-            className="flex flex-col lg:flex-row  justify-between max-lg:gap-[25px] gap-[25px] px-[25px] py-[20px] rounded-[30px] glass-card"
+            className="flex flex-col lg:flex-row  justify-between max-lg:gap-[25px] gap-[25px]  px-[25px] py-[20px] rounded-[30px] glass-container"
           >
             {/* Frontend & Design Card */}
             <StaggerItem>
