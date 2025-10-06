@@ -148,7 +148,8 @@ export function StickyNav() {
 
                   {/* Resume button - Mobile version */}
                   <motion.a
-                    href="#"
+                    href="/Resume.pdf"
+                    download
                     className="flex items-center gap-1 rounded-[10px] bg-[#242938] px-3 py-1 text-light text-sm"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -227,7 +228,8 @@ export function StickyNav() {
 
               {/* Resume button */}
               <motion.a
-                href="#"
+                href="/Resume.pdf"
+                download
                 className="flex items-center gap-2 rounded-[10px] bg-[#242938] px-5 py-2 text-light transition-colors hover:bg-[#2d2a47]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}

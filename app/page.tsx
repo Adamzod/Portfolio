@@ -329,7 +329,8 @@ export default function Home() {
                 transition={{ duration: 0.7, delay: 0.1 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="#"
+                href="/Resume.pdf"
+                download
                 className="flex items-center  justify-center space-x-2 px-6 py-3 rounded-[10px] bg-[rgba(43,43,53,0.7)] text-light"
               >
                 <span className="font-medium">Resume</span>
