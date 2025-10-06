@@ -75,8 +75,8 @@ export const projects: Project[] = [
       "Designed and built this portfolio site with Next.js, TypeScript, and Tailwind CSS to showcase projects and writing.",
     description:
       "Developed a performant, accessible, and responsive portfolio using Next.js App Router and TypeScript. Implemented dynamic project and blog sections, interactive modals, and custom UI components. Deployed with Vercel for fast global delivery.",
-    thumbnail: "/portfolio.png",
-    heroImage: "/portfolio.png",
+    thumbnail: "/port.png",
+    heroImage: "/port.png",
     technologies: ["TypeScript", "Next.js", "React.js", "TailwindCSS", "Vercel"],
     links: { website: "https://adamzod.com/", source: "https://github.com/AdamZod/portfolio" },
     role: "Designer & Developer",

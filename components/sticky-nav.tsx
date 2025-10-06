@@ -58,7 +58,7 @@ export function StickyNav() {
               <div className="flex items-center">
                 <div className="h-[3.75rem] w-[3.75rem] overflow-hidden rounded-full">
                   <Image
-                    src="/IMG_9231.jpg"
+                    src="/gen4.png"
                     alt="Profile"
                     width={60}
                     height={60}
