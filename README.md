@@ -2,11 +2,11 @@
 
 A modern, responsive portfolio website built with Next.js, showcasing my skills, projects, and professional journey as a Software Engineer specializing in Full Stack and Embedded Systems.
 
-## 🚀 Live Demo
+## Live Demo
 
 [View Portfolio](https://adamzod.github.io/Portfolio/) *(Coming Soon)*
 
-## ✨ Features
+## Features
 
 - **Modern Design**: Clean, professional interface with smooth animations
 - **Responsive Layout**: Optimized for all devices and screen sizes
@@ -19,7 +19,7 @@ A modern, responsive portfolio website built with Next.js, showcasing my skills,
 - **Accessibility**: WCAG compliant with proper semantic HTML
 - **SEO Ready**: Meta tags and structured data for search engines
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Next.js 14** - React framework with App Router
@@ -38,7 +38,7 @@ A modern, responsive portfolio website built with Next.js, showcasing my skills,
 - **PostCSS** - CSS processing
 - **Autoprefixer** - CSS vendor prefixing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Portfolio/
@@ -61,7 +61,7 @@ Portfolio/
 └── styles/               # Additional styles
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -100,38 +100,38 @@ npm run build
 npm run start
 ```
 
-## 📱 Sections
+## Sections
 
-### 🏠 Hero Section
+### Hero Section
 - Professional headshot
 - Name and title
 - Brief introduction
 - Contact buttons
 - Social media links
 
-### 🛠️ Skills & Technologies
+### Skills & Technologies
 - **Frontend**: React, Next.js, TypeScript, Tailwind CSS, Bootstrap
 - **Backend**: Node.js, Express.js, Python, Django
 - **Databases**: PostgreSQL, MongoDB
 - **DevOps**: Docker, AWS
 
-### 🚀 Projects
+### Projects
 - Featured projects with detailed descriptions
 - Technology stacks used
 - Live demo and source code links
 - Interactive project modals
 
-### 📈 Journey
+### Journey
 - Professional timeline
 - Education and experience
 - Key achievements and milestones
 
-### 📝 Recent Posts
+### Recent Posts
 - Blog posts and articles
 - Technical insights
 - Learning experiences
 
-## 🎨 Customization
+## Customization
 
 ### Adding New Projects
 Edit `lib/projects.ts` to add or modify projects:
@@ -161,7 +161,7 @@ Update the skills data in the main page component or create a separate skills co
 - Component styles: Use Tailwind CSS classes
 - Custom animations: `components/animations/`
 
-## 📄 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -170,7 +170,7 @@ Update the skills data in the main page component or create a separate skills co
 - `npm run export` - Export static site
 - `npm run preview` - Preview production build
 
-## 🌐 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 1. Push your code to GitHub
@@ -185,7 +185,7 @@ Update the skills data in the main page component or create a separate skills co
 1. Run `npm run export`
 2. Push the `out` folder to the `gh-pages` branch
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -193,18 +193,18 @@ Update the skills data in the main page component or create a separate skills co
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## 📞 Contact
+## Contact
 
 - **Email**: [yousef@example.com](mailto:yousef@example.com)
 - **LinkedIn**: [linkedin.com/in/yousefmehdizadeh](https://linkedin.com/in/yousefmehdizadeh)
 - **GitHub**: [github.com/yousefmehdizadeh](https://github.com/yousefmehdizadeh)
 - **Twitter**: [@yousefmehdizadeh](https://x.com/yousefmehdizadeh)
 
-## 📜 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Design inspiration from modern portfolio websites
 - Icons by [Lucide](https://lucide.dev/)
@@ -213,4 +213,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ **Star this repository if you found it helpful!**
+**Star this repository if you found it helpful!**
